@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: Verdana, sans-serif;
+    background-color: #1E222E;
+}
+
+td, th {
+    border-bottom: 3px solid;
+    border-color: #E5E5E7;
+    text-align: center;
+    font-size: 5vh;
+}
+
+/*Styles for the countdown*/
+#rom1, #rom2, #rom3, #rom4 {
+    background-color: #E9FFFF;
+    padding: 4px;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    width: 80%;
+    margin: 10%;
+    border-collapse: collapse;
+    background-color: rgb(153, 153, 153);
+    border-radius: 10px 10px 0 0;
+}
+td {
+    width: 25% ;
+} 
+
+#table_container {
+    display: flex;
+    height: 100%;
+}
+
+#table_header{
+    color: azure;
+    font-size: 7vh;
+    margin-bottom: -10%;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-right: 10%;
+    font-weight: bold;
+}
+
+
+td:first-child {
+    font-weight: bold;
+    border-right: 3px solid;
+    border-color: #E5E5E7;
+    width: 10%;
+}
