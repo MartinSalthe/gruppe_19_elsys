@@ -93,22 +93,22 @@ def html_changes(rom_1_tid,rom_2_tid,rom_3_tid,rom_4_tid):
       <tr>
         <td>1</td>
         <td><div id="rom1">{first}</div></td>
-        <td>Vent</td>
+        <td id="fase1">Tentativ</td>
       </tr>
       <tr>
         <td>2</td>
         <td><div id="rom2">{second}</div></td>
-        <td>Drikke</td>
+        <td id="fase2">Tentativ</td>
       </tr>
       <tr>
         <td>3</td>
         <td><div id="rom3">{third}</div></td>
-        <td>Drikke</td>
+        <td id="fase3">Tentativ</td>
       </tr>
       <tr>
         <td>4</td>
         <td><div id="rom4">{fourth}</div></td>
-        <td>Drikke</td>
+        <td id="fase4">Tentativ</td>
       </tr>
     </table>  
   </div>
